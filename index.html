@@ -2,18 +2,31 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salmendra</title>
+    <title>Tienda de Productos</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
-        <div class="bienvenida">
-        <h1>Bienvenido a Salmendra</h1>
-        <p>Tu plataforma de lacteos y carnes favorita.</p>
-        </div>
-    </main>
+    <!-- Fondo animado -->
+    <canvas id="fondo"></canvas>
 
+    <!-- Header -->
+    <header>
+        <h1>Tienda Campesina 🐄</h1>
+    </header>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Calidad en cada corte 🥩</h1>
+        <p>Los mejores productos frescos directo a tu mesa</p>
+        <button onclick="irAProductos()">Ver productos</button>
+    </div>
+</section>
+    <!-- Productos -->
+
+        <section class="productos" id="contenedorProductos"></section>
+
+
+    <a href="https://wa.me/573000000000" class="whatsapp">📱 Pedir por WhatsApp</a>
     <script src="js/main.js"></script>
 </body>
 </html>

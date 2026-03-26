@@ -1,11 +1,31 @@
-.btn{
-    background-color: #4c87af; /* Green */
-    border: none;
-    color: white;
-    padding: 5px 8px;
+body {
+    background-color: #F5E6D3;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: #FAFAFA;
+    padding: 30px;
+    border: 2px solid #B22222;
+    border-radius: 10px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 20%;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    background-color: #B22222;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }

@@ -2,28 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de registro</title>
+    <title>Login</title>
+
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <h1>Pagina de registro</h1>
-    <form>
-        <label for="username">Nombre de usuario:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required>
-        <a class="btn" href="index.html">Ingresar</a>
-    </form>
-    <form>
-        <h1>Si ya tienes cuenta</h1>
-        <label for="login-username">Nombre de usuario:</label>
-        <input type="text" id="login-username" name="login-username" required>
-        <label for="login-password">Contraseña:</label>
-        <input type="password" id="login-password" name="login-password" required>
-        <a class="btn" href="index.html">Iniciar Sesión</a>
-    </form>
+
+    <div class="login-box">
+        <h2>Iniciar Sesión</h2>
+
+        <form onsubmit="return login()">
+            <input type="text" id="user" placeholder="Usuario" required>
+            <input type="password" id="pass" placeholder="Contraseña" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
 </body>
 </html>

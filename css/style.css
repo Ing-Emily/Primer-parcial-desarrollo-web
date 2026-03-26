@@ -1,4 +1,171 @@
-.bienvenida{
-    font-size: 24px;
-    color: #333;
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #F5E6D3;
+    overflow-x: hidden;
+}
+
+/* Canvas fondo */
+#fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Header */
+header {
+    background-color: #8B0000;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Productos */
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Tarjetas */
+.card {
+    background: #FAFAFA;
+    border: 2px solid #B22222;
+    border-radius: 10px;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Imagen */
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    background-color: #ccc; /* placeholder */
+}
+
+/* Botón */
+button {
+    background-color: #B22222;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8B0000;
+}
+.card img {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+.hero {
+  background: url('../img/banner.jpg') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FAFAFA;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #8B0000;
+}
+#productos div {
+  background: #FAFAFA;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+#productos div:hover {
+  transform: scale(1.05);
+}
+button {
+  background: #8B0000;
+  color: #FAFAFA;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #B22222;
+}
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+.hero {
+    height: 90vh;
+    background: url('../img/banner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FAFAFA;
+    position: relative;
+}
+
+/* Oscurecer imagen para que el texto se vea */
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(62, 39, 35, 0.6);
+}
+
+/* Contenido encima */
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #F5E6D3;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.hero button {
+    background-color: #B22222;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #8B0000;
 }
