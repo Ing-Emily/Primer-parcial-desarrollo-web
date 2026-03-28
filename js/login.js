@@ -1,13 +1,15 @@
-function login() {
-    let user = document.getElementById("user").value;
-    let pass = document.getElementById("pass").value;
+document.getElementById("loginForm").addEventListener("submit", function(e) {
+  e.preventDefault();
 
-    if (user === "admin" && pass === "1234") {
-        alert("Bienvenido");
-        window.location.href = "index.html";
-        return false;
-    } else {
-        alert("Datos incorrectos");
-        return false;
-    }
-}
+  const user = document.getElementById("user").value;
+  const pass = document.getElementById("pass").value;
+  const error = document.getElementById("error");
+
+  if (user === "admin" && pass === "1234") {
+    localStorage.setItem("usuario", user);
+    window.location.href = "index.html";
+  } else {
+    error.textContent = "Credenciales incorrectas";
+    error.style.color = "red";
+  }
+});

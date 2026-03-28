@@ -1,31 +1,36 @@
+:root {
+  --color-primary: #8B0000;
+  --color-primary-light: #A61C1C;
+  --color-dark: #1C1C1C;
+  --color-white: #FFFFFF;
+  --color-light: #F2F2F2;
+  --color-light-alt: #E5E5E5;
+}
+
 body {
-    background-color: #F5E6D3;
-    font-family: Arial;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--color-light);
 }
 
-.login-box {
-    background: #FAFAFA;
-    padding: 30px;
-    border: 2px solid #B22222;
-    border-radius: 10px;
-    text-align: center;
-}
-
-input {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    width: 200px;
+form {
+  border: 1px solid var(--color-light-alt);
+  padding: 20px;
+  background: var(--color-white);
+  border-radius: 8px;
 }
 
 button {
-    background-color: #B22222;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--color-primary-light);
 }

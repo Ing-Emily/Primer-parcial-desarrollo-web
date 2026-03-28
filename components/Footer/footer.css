@@ -1,9 +1,16 @@
+:root {
+  --color-primary: #8B0000;
+  --color-primary-light: #A61C1C;
+  --color-dark: #1C1C1C;
+  --color-dark-light: #333333;
+  --color-white: #FFFFFF;
+  --color-light: #F2F2F2;
+  --color-light-alt: #E5E5E5;
+}
+
 .footer {
-    background-color: #3E2723;
-    color: #FAFAFA;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  text-align: center;
+  padding: 10px;
 }

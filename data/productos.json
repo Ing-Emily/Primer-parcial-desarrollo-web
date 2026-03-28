@@ -1,15 +1,14 @@
 [
-  {"nombre":"Carne de Res","precio":20000,"imagen":"img/carne_res.jpg"},
-  {"nombre":"Carne Molida","precio":18000,"imagen":"img/carnitamolida.jpg"},
-  {"nombre":"Costilla","precio":22000,"imagen":"img/costillita.jpg"},
-  {"nombre":"Especias","precio":5000,"imagen":"img/especiecitas.jpg"},
-  {"nombre":"Hígado","precio":10000,"imagen":"img/higadito.jpg"},
-  {"nombre":"Huevos","precio":12000,"imagen":"img/huevitos.jpg"},
-  {"nombre":"Huevos Premium","precio":15000,"imagen":"img/huevos1.jpg"},
-  {"nombre":"Lomo de Cerdo","precio":19000,"imagen":"img/lomitodecerdo.jpg"},
-  {"nombre":"Pollo","precio":14000,"imagen":"img/pollito.jpg"},
-  {"nombre":"Pollo Crudo","precio":13000,"imagen":"img/pollitocrudo.jpg"},
-  {"nombre":"Queso","precio":15000,"imagen":"img/quesito.jpg"},
-  {"nombre":"Suero","precio":10000,"imagen":"img/suerito.jpg"},
-  {"nombre":"Tocino","precio":17000,"imagen":"img/tocinito.jpg"}
+  {"nombre":"Carne de Res","precio":20000,"descripcion":"Carne fresca de res","categoria":"carnes","imagen":"img/carne_res.jpg"},
+  {"nombre":"Carne Molida","precio":18000,"descripcion":"Carne molida fresca","categoria":"carnes","imagen":"img/carnitamolida.jpg"},
+  {"nombre":"Costilla","precio":22000,"descripcion":"Costilla de res","categoria":"carnes","imagen":"img/costillita.jpg"},
+  {"nombre":"Especias","precio":5000,"descripcion":"Condimentos naturales","categoria":"otros","imagen":"img/especiecitas.jpg"},
+  {"nombre":"Hígado","precio":10000,"descripcion":"Hígado fresco","categoria":"carnes","imagen":"img/higadito.jpg"},
+  {"nombre":"Huevos","precio":12000,"descripcion":"Huevos frescos","categoria":"huevos","imagen":"img/huevitos.jpg"},
+  {"nombre":"Huevos Premium","precio":15000,"descripcion":"Huevos de alta calidad","categoria":"huevos","imagen":"img/huevos1.jpg"},
+  {"nombre":"Lomo de Cerdo","precio":19000,"descripcion":"Carne de cerdo","categoria":"carnes","imagen":"img/lomitodecerdo.jpg"},
+  {"nombre":"Pollo","precio":14000,"descripcion":"Pollo fresco","categoria":"carnes","imagen":"img/pollito.jpg"},
+  {"nombre":"Pollo Crudo","precio":13000,"descripcion":"Pollo sin procesar","categoria":"carnes","imagen":"img/pollitocrudo.jpg"},
+  {"nombre":"Queso","precio":15000,"descripcion":"Queso campesino","categoria":"quesos","imagen":"img/quesito.jpg"},
+  {"nombre":"Suero","precio":10000,"descripcion":"Suero costeño","categoria":"quesos","imagen":"img/suerito.jpg"}
 ]

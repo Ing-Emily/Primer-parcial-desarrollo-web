@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Tienda de Productos</title>
+  <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/style.css">
+  <!-- 🔥 ESTO FALTABA -->
+  <link rel="stylesheet" href="components/Header/header.css">
+  <link rel="stylesheet" href="components/Footer/footer.css">
+  <link rel="stylesheet" href="components/Sidebar/sidebar.css">
 </head>
 <body>
-    <!-- Fondo animado -->
-    <canvas id="fondo"></canvas>
 
-    <!-- Header -->
-    <header>
-        <h1>Salsamentaria SalMendra</h1>
-    </header>
-<section class="hero">
-    <div class="hero-content">
-        <h1>Calidad en cada corte</h1>
-        <p>Los mejores productos frescos directo a tu mesa</p>
-        <button onclick="irAProductos()">Ver productos</button>
-    </div>
-</section>
-    <!-- Productos -->
+<div id="header"></div>
 
-        <section class="productos" id="contenedorProductos"></section>
+<div class="main-container">
+  <div id="sidebar"></div>
 
+  <div class="content">
+    <h2>Productos</h2>
 
-    <a href="https://wa.me/573000000000" class="whatsapp">📱 Pedir por WhatsApp</a>
-    <script src="js/main.js"></script>
+    <template id="productTemplate">
+      <div class="product">
+        <h3 class="name"></h3>
+        <p class="price"></p>
+        <p class="desc"></p>
+      </div>
+    </template>
+
+    <div id="products"></div>
+  </div>
+</div>
+
+<div id="footer"></div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
