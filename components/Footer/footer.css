@@ -1,15 +1,15 @@
 :root {
   --color-primary: #8B0000;
   --color-primary-light: #A61C1C;
-  --color-dark: #1C1C1C;
-  --color-dark-light: #333333;
+  --color-darkf: #3a3434;
+  --color-darkf-light: #5a4848;
   --color-white: #FFFFFF;
   --color-light: #F2F2F2;
   --color-light-alt: #E5E5E5;
 }
 
 .footer {
-  background-color: var(--color-dark);
+  background-color: var(--color-darkf);
   color: var(--color-white);
   text-align: center;
   padding: 10px;

@@ -1,4 +1,4 @@
-:root {
+:header {
   --color-primary: #8B0000;
   --color-primary-light: #A61C1C;
   --color-dark: #1C1C1C;
@@ -9,10 +9,10 @@
 }
 
 .header {
-  background: linear-gradient(90deg, #8B0000, #A61C1C);
-  color: white;
+  background: linear-gradient(90deg,var( --color-primary),var(--color-primary-light));
+  color: var(--color-white);
   padding: 20px;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 1px;
 }

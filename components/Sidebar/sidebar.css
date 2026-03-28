@@ -1,7 +1,7 @@
-:root {
+:sidebar {
   --color-primary: #8B0000;
   --color-primary-light: #A61C1C;
-  --color-dark: #1C1C1C;
+  --color-dark: #422020;
   --color-dark-light: #333333;
   --color-white: #FFFFFF;
   --color-light: #F2F2F2;
@@ -10,7 +10,7 @@
 
 .sidebar {
   width: 260px;
-  min-height: 100vh;
+  min-height: 200vh;
   background: var(--color-dark);
   color: var(--color-white);
   padding: 20px;

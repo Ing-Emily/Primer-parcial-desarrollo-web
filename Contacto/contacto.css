@@ -1,0 +1,76 @@
+/* VARIABLES (si no están ya) */
+:root {
+  --color-primary: #8B0000;
+  --color-secondary: #ff6600;
+  --color-bg: #f5f5f5;
+  --color-card: #ffffff;
+  --color-text: #333;
+  --color-border: #ddd;
+
+  --radius: 12px;
+  --shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* CONTENIDO GENERAL */
+.content {
+  padding: 30px;
+  background: var(--color-bg);
+  min-height: 100vh;
+}
+
+/* TITULO */
+.content h1 {
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+/* CARD DE CONTACTO */
+.contact-info {
+  background: var(--color-card);
+  padding: 25px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 600px;
+  transition: 0.3s;
+}
+
+/* EFECTO HOVER SUAVE */
+.contact-info:hover {
+  transform: translateY(-5px);
+}
+
+/* SUBTITULO */
+.contact-info h2 {
+  margin-bottom: 15px;
+  color: var(--color-primary);
+}
+
+/* PÁRRAFOS */
+.contact-info p {
+  margin: 10px 0;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+/* LINKS */
+.contact-info a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* HOVER LINKS */
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-info {
+    max-width: 100%;
+  }
+
+  .content {
+    padding: 20px;
+  }
+}

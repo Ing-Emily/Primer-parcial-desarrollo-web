@@ -8,7 +8,7 @@
   {"nombre":"Huevos Premium","precio":15000,"descripcion":"Huevos de alta calidad","categoria":"huevos","imagen":"img/huevos1.jpg"},
   {"nombre":"Lomo de Cerdo","precio":19000,"descripcion":"Carne de cerdo","categoria":"carnes","imagen":"img/lomitodecerdo.jpg"},
   {"nombre":"Pollo","precio":14000,"descripcion":"Pollo fresco","categoria":"carnes","imagen":"img/pollito.jpg"},
-  {"nombre":"Pollo Crudo","precio":13000,"descripcion":"Pollo sin procesar","categoria":"carnes","imagen":"img/pollitocrudo.jpg"},
+  {"nombre":"Pollo Entero","precio":13000,"descripcion":"Pollo sin procesar","categoria":"carnes","imagen":"img/pollitocrudo.jpg"},
   {"nombre":"Queso","precio":15000,"descripcion":"Queso campesino","categoria":"quesos","imagen":"img/quesito.jpg"},
   {"nombre":"Suero","precio":10000,"descripcion":"Suero costeño","categoria":"quesos","imagen":"img/suerito.jpg"}
 ]
