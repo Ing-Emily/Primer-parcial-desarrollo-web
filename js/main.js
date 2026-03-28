@@ -128,3 +128,13 @@ if (user) {
     }
   }, 500);
 }
+function mostrarContacto() {
+  document.querySelector(".content h2").textContent = "Contacto";
+
+  fetch("Contacto/contacto.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("products").innerHTML = data;
+    })
+    .catch(err => console.error("Error cargando contacto:", err));
+}
